@@ -2,5 +2,10 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\ui\console_ui.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\ui\console_ui.h" />
+    <ClInclude Include="include\utils\colors.h" />
   </ItemGroup>
 </Project>
