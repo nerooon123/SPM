@@ -130,10 +130,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\core\auth.cpp" />
+    <ClCompile Include="src\core\crypto.cpp" />
+    <ClCompile Include="src\core\storage.cpp" />
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\ui\console_ui.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="include\core\auth.h" />
+    <ClInclude Include="include\core\crypto.h" />
+    <ClInclude Include="include\core\storage.h" />
     <ClInclude Include="include\ui\console_ui.h" />
     <ClInclude Include="include\utils\colors.h" />
   </ItemGroup>
