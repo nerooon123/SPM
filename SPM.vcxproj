@@ -143,6 +143,9 @@
     <ClInclude Include="include\ui\console_ui.h" />
     <ClInclude Include="include\utils\colors.h" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="CONTRIBUTING.md" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
