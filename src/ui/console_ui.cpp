@@ -64,7 +64,7 @@ std::string ConsoleUI::getUserInput(const std::string& prompt) const {
     std::cout << prompt;
     if (!std::getline(std::cin, input)) {
         // EOF (Ctrl+D / Ctrl+Z) — exit the program
-        std::cout << "\nEOF detected. Exiting.\n";
+        std::cout << "\nEOF detected. BYE :(.\n";
         std::exit(0);
     }
     return input;
