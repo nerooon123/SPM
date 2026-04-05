@@ -42,11 +42,11 @@ void ConsoleUI::run() {
 }
 
 void ConsoleUI::displayBanner() const {
-    std::cout << " ___   ____   __  __ \n";
-    std::cout << "/ __) (  _ \\ (  \\/  )\n";
-    std::cout << "\\__ \\  )___/  )    ( \n";
-    std::cout << "(___/ (__)   (_/\\/\\_)\n";
-    std::cout << "by: @nerooon123\n";
+    std::cout << Color::BOLD_YELLOW << " ___   ____   __  __ \n";
+    std::cout << Color::BOLD_YELLOW << "/ __) (  _ \\ (  \\/  )\n";
+    std::cout << Color::BOLD_YELLOW << "\\__ \\  )___/  )    ( \n";
+    std::cout << Color::BOLD_YELLOW << "(___/ (__)   (_/\\/\\_)\n";
+    std::cout << Color::BOLD_YELLOW << "by: @nerooon123\n";
 }
 
 void ConsoleUI::displayMenu() const {
